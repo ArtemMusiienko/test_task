@@ -1,0 +1,56 @@
+.body{
+  position: relative;
+}
+
+.main-container{
+  display: block;
+}
+.App {
+  display: flex;
+  justify-content: center;
+
+ }
+ 
+ .nav{
+   margin-top: 20px;
+   text-align: center;
+   height: 40px;
+   width: 150px;
+   margin-left: 6px;
+   background-color: lightseagreen;
+   border-bottom:2px solid rgb(88, 170, 88);
+   cursor: pointer;
+   
+   
+ }
+ .container{
+   margin-top: 5px;
+   display: flex;
+   justify-content: center;
+  
+  
+ }
+ .input-group{
+  height: 150px;
+  width: 400px;
+ 
+ }
+ 
+ .input{
+   width: 260px;
+   height: 20px;
+
+ }
+ .button{
+   width: 360px;
+   height: 25px;
+   background-color: paleturquoise;
+   margin-top: 10px;
+ }
+ .modal{
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgb(226, 220, 220);
+    z-index: 999;
+  
+ }
